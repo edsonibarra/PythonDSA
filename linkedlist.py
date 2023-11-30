@@ -27,4 +27,11 @@ class LinkedList:
         Resulting in somethig like this:
         [1]->[2]->[3]->None
         """
-        pass
+        if self.head is None:
+            print("None")
+            return
+        current_node = self.head
+        while current_node:
+            print(f"[{current_node.data}]",end="->")
+            current_node = current_node.next
+        print("None")
