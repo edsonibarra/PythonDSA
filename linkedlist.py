@@ -20,3 +20,9 @@ class LinkedList:
         while current_node.next:
             current_node = current_node.next
         current_node.next = current_node
+
+    def fmt_print(self):
+        """
+        It prints each node.data in a formatted way
+        """
+        pass
