@@ -24,5 +24,7 @@ class LinkedList:
     def fmt_print(self):
         """
         It prints each node.data in a formatted way
+        Resulting in somethig like this:
+        [1]->[2]->[3]->None
         """
         pass
