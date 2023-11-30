@@ -9,4 +9,7 @@ class LinkedList:
         """
         Add a new node at the end of the list.
         """
-        pass
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+            return
