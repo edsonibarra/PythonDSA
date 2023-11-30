@@ -35,10 +35,15 @@ class LinkedList:
 
 
 def main():
+    # Create a new linked list
     l = LinkedList()
+
+    # Append new nodes to the list
     for n in  range(1, 5):
         l.append(n)
-    l.fmt_print()
+    
+    # Print the list in a formatted way
+    l.fmt_print()  # 
 
 
 if __name__ == "__main__":
