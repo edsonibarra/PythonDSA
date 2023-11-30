@@ -35,3 +35,7 @@ class LinkedList:
             print(f"[{current_node.data}]",end="->")
             current_node = current_node.next
         print("None")
+
+
+def main():
+    pass
