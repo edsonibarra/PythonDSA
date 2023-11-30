@@ -38,7 +38,10 @@ class LinkedList:
 
 
 def main():
-    pass
+    l = LinkedList()
+    for n in  range(1, 5):
+        l.append(n)
+    l.fmt_print()
 
 
 if __name__ == "__main__":
