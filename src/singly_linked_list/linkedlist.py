@@ -16,7 +16,7 @@ class LinkedList:
         current_node = self.head
         while current_node.next:
             current_node = current_node.next
-        current_node.next = current_node
+        current_node.next = new_node
 
     def fmt_print(self):
         """
