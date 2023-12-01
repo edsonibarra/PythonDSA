@@ -56,7 +56,7 @@ def main():
         l.append(n)
     
     # Print the list in a formatted way
-    l.fmt_print()  # 
+    l.fmt_print()  # [1]->[2]->[3]->[4]->None
 
 
 if __name__ == "__main__":
