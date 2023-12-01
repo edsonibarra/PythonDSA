@@ -22,7 +22,14 @@ class LinkedList:
         """
         It adds a new node at the beginning of the list
         """
-        pass
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+            return
+        
+        current_node = self.head
+        new_node.next = current_node
+        self.head = new_node
 
     def fmt_print(self):
         """
