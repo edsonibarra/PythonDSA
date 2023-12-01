@@ -19,6 +19,9 @@ class LinkedList:
         current_node.next = new_node
 
     def prepend(self, data):
+        """
+        It adds a new node at the beginning of the list
+        """
         pass
 
     def fmt_print(self):
