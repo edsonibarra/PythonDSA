@@ -18,6 +18,9 @@ class LinkedList:
             current_node = current_node.next
         current_node.next = new_node
 
+    def prepend(self, data):
+        pass
+
     def fmt_print(self):
         """
         It prints each node.data in a formatted way
